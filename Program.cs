@@ -63,7 +63,7 @@ namespace DzSkiba_1
         }
         static double Y(double x)
         {
-            return x * x;
+            return Math.Pow(x + 1, 3) + Math.Pow(5 * x, 2);
         }
     }
 }
